@@ -18,7 +18,7 @@ if (isset($_POST['enviar'])) {
         $n1 = $_POST['n1'];
         $n2 = $_POST['n2'];
         // Si los parámetros son correctos, llamamos a la función letra de calcularLetra.php
-        $resultado = "El resultado de sumar los dos números es es: " . $cliente->suma($n1, $n2);
+        $resultado = "El resultado de sumar los dos números es: " . $cliente->suma($n1, $n2);
     } else {
         $error = "<strong>Error:</strong> Debes introducir dos números enteros.";
     }
