@@ -1,4 +1,4 @@
-<?php //IMPORTANTE: ELIMINA EL ESPACIO ANTES DE LA INTERROGACIÓN
+<?php
 // Instanciamos un nuevo servidor SOAP
 $uri="https://www.raulprietofernandez.net/images/blog/211/DNI/";
 $server = new SoapServer(null,array('uri'=>$uri));

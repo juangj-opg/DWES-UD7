@@ -1,4 +1,4 @@
-<?php //IMPORTANTE: ELIMINA EL ESPACIO ANTES DE LA INTERROGACIÓN
+<?php
 // Vaciamos algunas variables
 $error = "";
 $resultado = "";
